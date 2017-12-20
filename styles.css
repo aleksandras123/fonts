@@ -1,0 +1,65 @@
+@font-face {
+  font-family: myElite;
+  src: url(SpecialElite.woff);
+}
+@font-face {
+  font-family: cBold;
+  src: url(cardo-bold.woff);
+}
+
+@font-face {
+  font-family: cItalic;
+  src: url(cardo-italic.woff);
+}
+
+@font-face {
+  font-family: cRegural;
+  src: url(cardo-regular.woff);
+}
+
+
+.container-wrapper {
+width: 450px;
+margin: 0 auto;
+}
+
+
+
+
+.cw
+{
+  text-align: justify;
+  font-family: 'myElite',sans-serif;
+  font-size: 60px;
+}
+
+.cb
+{
+  font-family: 'cItalic',cursive;
+  text-align: justify;
+
+}
+
+.leo
+{
+  font-family: cRegural;
+  display: block;
+  text-align:right;
+}
+.leotxt {
+  font-family: 'cRegural',sans-serif;
+}
+.second {
+    text-align: justify;
+    font-family: 'myElite', sans-serif;
+}
+
+.mmm
+{
+  font-family: 'cRegural',sans-serif;
+  text-align: justify;
+}
+.mmm::first-letter {
+    text-transform: capitalize;
+    font-size: 2em;
+}
